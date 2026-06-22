@@ -1,2 +1,7 @@
-\__pycache__
+# Python cache
+__pycache__/
+**/__pycache__/
+
+# Videos
 *.mp4
+**/*.mp4

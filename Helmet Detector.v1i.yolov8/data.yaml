@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['Cycling Helmet', 'half face', 'hard hat', 'helmet', 'modular helmet', 'motorbike', 'motorcyclist', 'no helmet', 'nutshell', 'person', 'plate', 'quarter face helmet', 'sports helmet']
+
+roboflow:
+  workspace: yolo-do-it-yhopz
+  project: helmet-detector-9rzmg-bmd6q
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-do-it-yhopz/helmet-detector-9rzmg-bmd6q/dataset/1
